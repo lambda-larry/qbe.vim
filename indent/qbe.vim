@@ -10,7 +10,7 @@ setlocal shiftwidth=8
 setlocal softtabstop=8
 
 setlocal cindent
-setlocal indentkeys=0{,0},0),0],:,!^F,o,O,e
-setlocal cinkeys=0{,0},0),0],:,!^F,o,O,e
+setlocal indentkeys=0{,0},0),!^F,o,O
+setlocal cinkeys=0{,0},0),!^F,o,O
 
 let b:undo_indent = "setlocal cindent< indentkeys=< cinkeys< noexpandtab< tabstop< shiftwidth< softtabstop<"
