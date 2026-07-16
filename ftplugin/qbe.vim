@@ -142,4 +142,4 @@ function! QbeComplete(find_start, base)
   endif
 endfun
 
-set omnifunc=QbeComplete
+setlocal omnifunc=QbeComplete
