@@ -169,6 +169,9 @@ syntax keyword QbeInstJmp jmp
 syntax keyword QbeInstJmp jnz
 syntax keyword QbeInstJmp ret
 
+" Undocumented debug info
+syntax keyword QbeKeyword dbgfile
+syntax keyword QbeInst    dbgloc
 
 highlight clear QbeKeyword
 highlight clear QbeType
